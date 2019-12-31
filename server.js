@@ -4,7 +4,7 @@ var express = require('express'),
 
 app.use(express.static('public'));
 
-var routes = require("./api/routes");
+var routes = require("./api/routes"
 routes(app);
 
 if (! module.parent) {
