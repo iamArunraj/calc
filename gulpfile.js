@@ -5,4 +5,3 @@ gulp.task('inlinesource', function () {
     return gulp.src('./coverage/*.html')
         .pipe(inlinesource({attribute: false}))
         .pipe(gulp.dest('./coverage/report'));
-});
